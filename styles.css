@@ -1,4 +1,10 @@
-/*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
 #app {
     width: 80%;
     margin: 40px auto;
@@ -28,17 +34,25 @@
     margin-bottom: 20px;
 }
 
-.play {
+button {
     padding: 10px 20px;
     font-size: 18px;
     background-color: #4CAF50;
-    color: #fff;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin: 5px;
 }
 
-.play:hover {
+button:hover {
     background-color: #3e8e41;
 }
 
+.play {
+    background-color: #007BFF;
+}
+
+.play:hover {
+    background-color: #0056b3;
+}
